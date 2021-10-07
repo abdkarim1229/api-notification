@@ -3,7 +3,7 @@ function sendPushNotification($fcm_token, $title, $message, $id = null,$action =
      
     $url = "https://fcm.googleapis.com/fcm/send";            
     $header = [
-        'authorization: key=<TOKEN_MU>',
+        'authorization: key=<AAAAiabun4Q:APA91bEsGEYSSDHiB8jDgCyElHc7x2UzixmHUhTbGmdjowHw2PuJ2XMjrL7_X-Q1rX6SX50hKZ2W_oXy4PUYxrOLD-evQTYSpvnMMDzqCql1u60pCp6_DwLQuwvXk44OKLkqKmcX4j-Z>',
         'content-type: application/json'
     ];    
  
